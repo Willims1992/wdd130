@@ -83,7 +83,7 @@ aside img{
 header, .grid, footer{
     max-width: 840px;
     height: auto;
-    margin-top: 1em;
+    margin: 0 auto;
     border-top: 1px solid #000;
     text-align: var(--text-align);
 }
