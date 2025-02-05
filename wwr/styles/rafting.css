@@ -11,6 +11,76 @@ body {
     padding: 0 15px;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 200px 21fr 10fr;
+    align-items: center;
+    max-width: 700px;
+}
+.logo{
+    margin: 0 0.25rem 0 1rem;
+	width: 150px;
+	height: auto;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    flex: 1 1 auto;
+}
+
+.navigation a{
+    display: block;
+    color: steelblue;
+    padding: 20px;
+    font-size: 1.1rem;
+    font-weight: 549;
+
+}
+
+.navigation a:hover{
+    color: var(--accent1-color);
+    font-weight: 800;
+    text-decoration:overline;
+}
+.History{
+    text-align: center;
+    padding: 20px;
+}
+.h-container{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    text-align: center;
+    max-width: 700px;
+    margin: autio;
+}
+
+.History h2{
+    grid-column: 1/-1;
+}
+
+.History figure{
+    display: flex;
+    justify-content: center;
+}
+
+.History img{
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.box{
+    text-align: center;
+    padding: 20px;
+}
+
+.gallary
+
 h1, h2 {
     font-family: "Roboto", serif;
     font-weight: 400;
@@ -66,7 +136,47 @@ article {
 }
 
 .box {
-    width: 200px;
+    text-align: center;
+    
+}
+.box h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.galary{
+    width: 700px;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+ 
+}
+.box img{
+    width: 65px;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #0077be;
+}
+.footer p{
+    text-align: center;
+    margin: 0;
+    flex-grow: 1;
+
+}
+.icons a{
+    ;
+    gap: 10px;
+}
+.icons img{
+    width: 30px;
 }
 
 
