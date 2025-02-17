@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Water Rafting|About Us</title>
+    <title>White Water Rafting|Contact Us</title>
     <meta name="description" content="A Rafting Site">
     <meta name="author" content="Ofonime William">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
@@ -24,7 +25,55 @@
         </nav>
     </header>
     <main>
-       <div class="hero">
+        <section class="cmpny-info">
+            <h2>Our contact information</h2>
+            <p>&#127970; Address: 50 ikot Odon Ward, Ikot Ekpene</p>
+            <p>&#9742; phone: <a href="tel: +2348151915541">+2348151915541</a></p>
+            <p>&#9993; Email: <a href="mailto: ofonimewilliams16@gmail.com">ofonimewilliams16@gmail.com</a></p>
+            <h3>Our Location</h3>
+            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d254371.2031695409!2d7.
+                922491624062537!3d5.014118476837935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                1!5e0!3m2!1sen!2sng!4v1739787998707!5m2!1sen!2sng" width="400" height="300"
+                 allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+        </section>
+        <section class="employees">
+            <h3>Meet our team</h3>
+            <div class="team">
+                <figure>
+                    <img src="images/couples.webp" alt="william max">
+                    <figcaption>Wiilams max- Customer service</figcaption>
+                </figure>   
+                <figure>
+                    <img src="images/rafters.webp" alt="Tour guide">
+                    <figcaption>Tour guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/water-paddling.webp" alt="Unsplash">
+                    <figcaption>Safety Co- ordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required>
+                <p>Purpose of message</p>
+                <label><input type="radio" name="purpose" value="General Inquiry">General Inquiry</label>
+                <label><input type="radio" name="Purpose" value="Reservation question">Reservation Question</label>
+                <label><input type="radio" name="Purpose" value="website suggestion">Website Suggestion</label>
+                <label for="message"> Your Message</label>
+                <textarea name="message" rows="4" required id="message"></textarea> <br>
+                <label><input type="checkbox" name="subcribe">Please subscribe to my monthly newsletter</label>
+                <button type="submit">Sent message</button>
+
+
+            </form>
+        </section>
+        <!--<div class="hero">
             <img src="images/rafting12.webp" alt="people surving" id="image1">
             <h1>White Water Rafting</h1>
             <article class="ikpa">
@@ -79,7 +128,7 @@
                        
             </div> 
             
-        </section>
+        </section>-->
 
     </main>
 
