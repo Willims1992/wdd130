@@ -10,10 +10,12 @@
 body {
     max-width: 700px;
     margin: 0 auto;
+    padding-top: 100px;
     padding: 0 15px;
 }
 
 header {
+    padding-top: 15px 0;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -37,7 +39,7 @@ header nav a{
     display: block;
     padding: 1rem;
     padding-top: 80px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }
 
@@ -208,6 +210,11 @@ border-radius: 10px;
     margin-right: 5px;
 }
 
+.contact-form h2{
+    text-align: center;
+    
+}
+
 .contact-form button{
     font-size: 20px;
     font-weight: bold;
@@ -247,6 +254,28 @@ border-radius: 10px;
     width: 30px;
 }
 
+
+.trip-description {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.trip-description img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trips-table th, .trips-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
 .wireframe{
     width: 80px;
     background-color: whitesmoke;
@@ -259,6 +288,44 @@ border-radius: 10px;
     padding-top: 3px;
 
 }
+
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+.adventure h2{
+    text-align: center;
+}
+
+.call-to-action .cta-button {
+    padding: 10px 20px;
+    background-color: #0077be;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.call-to-action .cta-button:hover{
+    background-color: var(--secodary-color);
+}
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+} 
+
+
+
+
+
 
 
 
