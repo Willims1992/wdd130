@@ -307,6 +307,10 @@ border-radius: 10px;
 .call-to-action .cta-button:hover{
     background-color: var(--secodary-color);
 }
+
+.trip-table h2{
+    text-align: center;
+}
 /* Grid Layout */
 .grid-container {
     display: grid;
